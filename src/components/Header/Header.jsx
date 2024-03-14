@@ -34,11 +34,25 @@ const Header = () => {
               </p>
             </Flex>
             {show && (
-              <ul className="absolute">
-                <li>Hi</li>
-                <li>Hi</li>
-                <li>Hi</li>
-                <li>Hi</li>
+              <ul className="absolute top-40 w-80 bg-gray-900 text-[#BEBEBE]">
+                <li className="py-4 px-5 border-b-2 border-primary hover:text-white hover:mx-4 ease-in duration-200 hover:font-bold">
+                  Accessories
+                </li>
+                <li className="py-4 px-5 border-b-2 border-primary hover:text-white hover:mx-4 ease-in duration-200 hover:font-bold">
+                  Furniture
+                </li>
+                <li className="py-4 px-5 border-b-2 border-primary hover:text-white hover:mx-4 ease-in duration-200 hover:font-bold">
+                  Electronics
+                </li>
+                <li className="py-4 px-5 border-b-2 border-primary hover:text-white hover:mx-4 ease-in duration-200 hover:font-bold">
+                  Clothes
+                </li>
+                <li className="py-4 px-5 border-b-2 border-primary hover:text-white hover:mx-4 ease-in duration-200 hover:font-bold">
+                  Bags
+                </li>
+                <li className="py-4 px-5  hover:text-white hover:mx-4 ease-in duration-200 hover:font-bold">
+                  Home appliances
+                </li>
               </ul>
             )}
           </Dropdown>
